@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <div id="main">
+        <h2>Calcule sua media <br> 
+        (a nota máxima é 10)</h2>
+
+            <span>digite sua 1ª nota: </span>
+                <input type="number" max="10" id="nota1">
+            <span>digite sua 2ª nota: </span>
+                <input type="number" max="10" id="nota2">
+            <span>digite sua 3ª nota: </span>
+                <input type="number" max="10" id="nota3">
+        
+            <button id="calcular" onclick="calcular()">calcular</button>
+        </div>
+
+        <p id="test"> media: <span id="media"></span> </p>
+        <p id="status"></p>
+
+        <script src="code.js"></script>
+</body>
+</html>
